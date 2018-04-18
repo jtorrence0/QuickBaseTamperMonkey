@@ -9,6 +9,8 @@
 // @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/blob/master/QuickBaseCSVExp.user.js
 // ==/UserScript==
 
+// Change Here
+
 const originalFunction = vpInitTable;
 
 function wrapperInitFunction(){
