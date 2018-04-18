@@ -6,6 +6,7 @@
 // @author       Justin Torrence
 // @match        ://*.quickbase.com/*
 // @grant        none
+// @downloadURL  https://github.com/jtorrence0/QuickBaseTamperMonkey/blob/master/QuickBaseCSVExp.user.js
 // ==/UserScript==
 
 const originalFunction = vpInitTable;
