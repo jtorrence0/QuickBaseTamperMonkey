@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quick Base CSV Export
 // @namespace    QuickBaseTamperMonkey
-// @version      0.4
+// @version      0.5
 // @description  Exports Quick Base reports to CSV
 // @author       Justin Torrence
 // @match        ://*.quickbase.com/*
@@ -9,7 +9,7 @@
 // @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseCSVExp.user.js
 // ==/UserScript==
 
-// Change Here
+// Test update
 
 const originalFunction = vpInitTable;
 
