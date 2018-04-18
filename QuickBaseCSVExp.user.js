@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quick Base CSV Export
 // @namespace    QuickBaseTamperMonkey
-// @version      0.1.0
+// @version      0.2
 // @description  Exports Quick Base reports to CSV
 // @author       Justin Torrence
 // @match        ://*.quickbase.com/*
