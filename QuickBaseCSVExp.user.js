@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Quick Base CSV Export
-// @namespace    LogicalPositionQuickBase
+// @namespace    QuickBaseTamperMonkey
 // @version      0.1
 // @description  Exports Quick Base reports to CSV
 // @author       Justin Torrence
@@ -15,9 +15,9 @@ const originalFunction = vpInitTable;
 
 function wrapperInitFunction(){
     var value = originalFunction.apply(null, arguments);
-
+	
     gVPviews.forEach(e=> e.qbCanExp = true);
-
+	
     return value;
 }
 
