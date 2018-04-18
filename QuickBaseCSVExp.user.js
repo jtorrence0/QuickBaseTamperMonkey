@@ -6,7 +6,7 @@
 // @author       Justin Torrence
 // @match        ://*.quickbase.com/*
 // @grant        none
-// @downloadURL  https://github.com/jtorrence0/QuickBaseTamperMonkey/blob/master/QuickBaseCSVExp.user.js
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/blob/master/QuickBaseCSVExp.user.js
 // ==/UserScript==
 
 alert("Update Test");
