@@ -7,6 +7,7 @@
 // @match        ://*.quickbase.com/*/*?a=dformprops*
 // @match        ://*.quickbase.com/*/*?a=DFormProps*
 // @grant        none
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseFormSearch.js
 // ==/UserScript==
 
 (function () {

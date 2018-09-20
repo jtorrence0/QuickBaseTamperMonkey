@@ -6,6 +6,8 @@
 // @author       Justin Torrence
 // @match        ://*.quickbase.com/*/*?a=dformprops*
 // @match        ://*.quickbase.com/*/*?a=DFormProps*
+// @grant        none
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseFormChecker.user.js
 // ==/UserScript==
 
 function getRules() {
