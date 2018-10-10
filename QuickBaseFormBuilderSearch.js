@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name         SearchOptions
-// @namespace    QuickBaseFormSearch
+// @name         QuickBase Form Builder Search
+// @namespace    QuickBaseFormBuilderFieldSearch
 // @version      0.1
 // @description  Search form editor for selected values
 // @author       Justin Torrence
-// @match        ://*.quickbase.com/*/*?a=dformprops*
-// @match        ://*.quickbase.com/*/*?a=DFormProps*
+// @match        ://*.quickbase.com/db/*DformProps*
+// @match        ://*.quickbase.com/db/*dformprops*
+// @match        ://*.quickbase.com/db/*DFormProps*
 // @grant        none
-// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseFormSearch.js
+// @updateURL
 // ==/UserScript==
 
 let lastSearch = "";
@@ -20,7 +21,7 @@ function searchForm() {
     for (let i = 0; i < selElems.length; i++) {
         let optionText = selElems[i].options[selElems[i].selectedIndex].text.toLowerCase();
         if (optionText.includes(searchString))
-            matches.push(i)
+            matches.push(i);
     }
 
     let currentIndex = matches.indexOf(GetFirstSelectedRow());
@@ -57,7 +58,7 @@ function searchUI() {
         searchGroup.appendChild(input);
         searchGroup.appendChild(confirmSearch);
 
-        let introText = document.getElementById("introText")
+        let introText = document.getElementById("introText");
         introText.appendChild(searchGroup);
     }
 
@@ -72,7 +73,7 @@ function showTheElement(index) {
 let searchButton = document.createElement("button");
 searchButton.classList.add("Vibrant");
 searchButton.onclick = searchUI;
-searchButton.innerText = "Search Form";
+searchButton.innerText = "Form Builder Field Search";
 
 let nav = document.getElementById("pageNavBarActions");
 nav.appendChild(searchButton);

@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name         Quick Base Form Checker
-// @namespace    QuickBaseFormChecker
-// @version      0.6
+// @name         Quick Base Dynamic Rule Field Search
+// @namespace    QuickBaseDynamicRuleFieldSearch
+// @version      0.7
 // @description  Returns the Rule #s of the rules that use the provided field id
 // @author       Justin Torrence
-// @match        ://*.quickbase.com/*/*?a=dformprops*
-// @match        ://*.quickbase.com/*/*?a=DFormProps*
+// @match        ://*.quickbase.com/db/*DformProps*
+// @match        ://*.quickbase.com/db/*dformprops*
+// @match        ://*.quickbase.com/db/*DFormProps*
 // @grant        none
-// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseFormChecker.user.js
+// @updateURL
 // ==/UserScript==
 
 function getRules() {
@@ -37,13 +38,12 @@ function getRules() {
             rulesUsing.push(i);
         }
     }
-    alert(rulesUsing)
+    alert(rulesUsing);
 }
 
 let rulesButton = document.createElement("button");
 rulesButton.classList.add("Vibrant");
 rulesButton.onclick = getRules;
-rulesButton.innerText = "Get Rules";
 
 let nav = document.getElementById("pageNavBarActions");
 nav.appendChild(rulesButton);
