@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         QuickBase Form Builder Search
+// @name         QuickBase Form Builder Field Search
 // @namespace    QuickBaseFormBuilderFieldSearch
 // @version      0.1
 // @description  Search form editor for selected values
@@ -8,7 +8,7 @@
 // @match        ://*.quickbase.com/db/*dformprops*
 // @match        ://*.quickbase.com/db/*DFormProps*
 // @grant        none
-// @updateURL
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseFormBuilderSearch.js
 // ==/UserScript==
 
 let lastSearch = "";

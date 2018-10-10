@@ -8,7 +8,7 @@
 // @match        ://*.quickbase.com/db/*dformprops*
 // @match        ://*.quickbase.com/db/*DFormProps*
 // @grant        none
-// @updateURL
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseDynamicRuleRoleSearch.user.js
 // ==/UserScript==
 
 function getRoles() {
