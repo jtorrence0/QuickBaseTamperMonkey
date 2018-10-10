@@ -8,7 +8,7 @@
 // @match        ://*.quickbase.com/db/*dformprops*
 // @match        ://*.quickbase.com/db/*DFormProps*
 // @grant        none
-// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseFormBuilderSearch.js
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseFormBuilderSearch.user.js
 // ==/UserScript==
 
 let lastSearch = "";

@@ -8,7 +8,7 @@
 // @match        ://*.quickbase.com/db/*dformprops*
 // @match        ://*.quickbase.com/db/*DFormProps*
 // @grant        none
-// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseDynamicRuleFieldSearch.js
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseDynamicRuleFieldSearch.user.js
 // ==/UserScript==
 
 function getRules() {
