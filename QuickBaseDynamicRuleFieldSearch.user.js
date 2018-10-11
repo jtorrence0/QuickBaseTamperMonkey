@@ -8,7 +8,7 @@
 // @match        ://*.quickbase.com/db/*dformprops*
 // @match        ://*.quickbase.com/db/*DFormProps*
 // @grant        none
-// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseDynamicRuleFieldSearch.user.js
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseDynamicRuleFieldSearch.js
 // ==/UserScript==
 
 function getRules() {
@@ -44,6 +44,7 @@ function getRules() {
 let rulesButton = document.createElement("button");
 rulesButton.classList.add("Vibrant");
 rulesButton.onclick = getRules;
+rulesButton.innerText = "Field Rule Search";
 
 let nav = document.getElementById("pageNavBarActions");
 nav.appendChild(rulesButton);

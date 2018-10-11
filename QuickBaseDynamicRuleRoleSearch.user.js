@@ -95,7 +95,7 @@ function roleSearchUI() {
 let roleSearchButton = document.createElement("button");
 roleSearchButton.classList.add("Vibrant");
 roleSearchButton.onclick = roleSearchUI;
-roleSearchButton.innerText = "Role Search";
+roleSearchButton.innerText = "Role Rule Search";
 
 let nav = document.getElementById("pageNavBarActions");
 nav.appendChild(roleSearchButton);
