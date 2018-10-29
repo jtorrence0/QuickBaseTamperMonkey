@@ -9,10 +9,26 @@
 // @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseRestrictRoleAccess.user.js
 // ==/UserScript==
 
-function changeAllRoleRows(value) {
+function changeToView() {
     let roleRows = document.getElementsByClassName("m");
     for (let i = 0; i < roleRows.length; i++) {
-        $(roleRows[i].childNodes[1].childNodes[0]).val(value);
+        $(roleRows[i].childNodes[1].childNodes[0]).val('1');
+        
+    }
+}
+
+function changeToModify() {
+    let roleRows = document.getElementsByClassName("m");
+    for (let i = 0; i < roleRows.length; i++) {
+        $(roleRows[i].childNodes[1].childNodes[0]).val('5');
+        
+    }
+}
+
+function changeToNone() {
+    let roleRows = document.getElementsByClassName("m");
+    for (let i = 0; i < roleRows.length; i++) {
+        $(roleRows[i].childNodes[1].childNodes[0]).val('0');
         
     }
 }
@@ -27,7 +43,7 @@ function changeUI() {
         customViewButton.classList.add("Vibrant");
         customViewButton.classList.add("Primary");
         customViewButton.classList.add("Secondary");
-        customViewButton.onclick = changeAllRoleRows('1');
+        customViewButton.onclick = changeToView;
         customViewButton.innerText = "Set All to View";
 
         // modify button
@@ -35,7 +51,7 @@ function changeUI() {
         customModifyButton.classList.add("Vibrant");
         customModifyButton.classList.add("Primary");
         customModifyButton.classList.add("Secondary");
-        customModifyButton.onclick = changeAllRoleRows('5');
+        customModifyButton.onclick = changeToModify;
         customModifyButton.innerText = "Set All to Modify";
 
         // none button
@@ -43,7 +59,7 @@ function changeUI() {
         customNoneButton.classList.add("Vibrant");
         customNoneButton.classList.add("Primary");
         customNoneButton.classList.add("Secondary");
-        customNoneButton.onclick = changeAllRoleRows('0');
+        customNoneButton.onclick = changeToNone;
         customNoneButton.innerText = "Set All to None";
 
         changeGroup.appendChild(customViewButton);
