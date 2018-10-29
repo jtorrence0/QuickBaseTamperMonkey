@@ -39,7 +39,7 @@ function changeUI() {
         changeGroup.id = "customChangeGroup";
 
         // view button
-        let customViewButton = document.createElement("button");
+        let customViewButton = document.createElement("div");
         customViewButton.classList.add("Vibrant");
         customViewButton.classList.add("Primary");
         customViewButton.classList.add("Secondary");
@@ -47,7 +47,7 @@ function changeUI() {
         customViewButton.innerText = "Set All to View";
 
         // modify button
-        let customModifyButton = document.createElement("button");
+        let customModifyButton = document.createElement("div");
         customModifyButton.classList.add("Vibrant");
         customModifyButton.classList.add("Primary");
         customModifyButton.classList.add("Secondary");
@@ -55,7 +55,7 @@ function changeUI() {
         customModifyButton.innerText = "Set All to Modify";
 
         // none button
-        let customNoneButton = document.createElement("button");
+        let customNoneButton = document.createElement("div");
         customNoneButton.classList.add("Vibrant");
         customNoneButton.classList.add("Primary");
         customNoneButton.classList.add("Secondary");
