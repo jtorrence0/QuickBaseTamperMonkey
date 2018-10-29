@@ -13,24 +13,24 @@ function changeToView() {
     let roleRows = document.getElementsByClassName("m");
     for (let i = 0; i < roleRows.length; i++) {
         $(roleRows[i].childNodes[1].childNodes[0]).val('1');
-        
     }
+    return;
 }
 
 function changeToModify() {
     let roleRows = document.getElementsByClassName("m");
     for (let i = 0; i < roleRows.length; i++) {
         $(roleRows[i].childNodes[1].childNodes[0]).val('5');
-        
     }
+    return;
 }
 
 function changeToNone() {
     let roleRows = document.getElementsByClassName("m");
     for (let i = 0; i < roleRows.length; i++) {
         $(roleRows[i].childNodes[1].childNodes[0]).val('0');
-        
     }
+    return;
 }
 
 function changeUI() {
