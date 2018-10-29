@@ -58,7 +58,7 @@ function changeUI() {
 
 let roleToolButton = document.createElement("button");
 roleToolButton.classList.add("Vibrant");
-roleToolButton.onclick = searchUI;
+roleToolButton.onclick = changeUI;
 roleToolButton.innerText = "Role Tool";
 
 let nav = document.getElementById("pageNavBarActions");
