@@ -28,7 +28,7 @@ function getRules() {
                 ruleUsesField = true;
             }
         }
-        for (let j = 0; j < ruleObj.numConditions.length; j++) {
+        for (let j = 0; j < ruleObj.numConditions; j++) {
             if (ruleObj.conditions[j].fid == fieldID || ruleObj.conditions[j].val == valueCom) {
                 ruleUsesField = true;
             }
