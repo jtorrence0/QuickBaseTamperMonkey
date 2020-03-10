@@ -39,6 +39,7 @@ function getRules() {
         }
     }
     alert(rulesUsing);
+    console.log("Rules using field: " + rulesUsing);
 }
 
 let rulesButton = document.createElement("button");
