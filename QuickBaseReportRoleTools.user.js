@@ -67,7 +67,7 @@ function checkButtons(){
 let searchButton = document.createElement("button");
 searchButton.classList.add("Vibrant");
 searchButton.onclick = checkButtons;
-searchButton.innerText = "Check/Uncheck Roles Buttons";
+searchButton.innerText = "Check/Uncheck Roles";
 
 let nav = document.getElementById("pageNavBarActions");
 nav.appendChild(searchButton);
