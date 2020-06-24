@@ -17,25 +17,6 @@ In the form editor
 5. Continue clicking Search to look for additional matches.
 ### Demo
 ![](Demo/FormBuilderSearch.gif)
-## QuickBaseDynamicRuleFieldSearch
-### What it does
-Gives you a list of all the rules that a given field is used in on the current form
-### Where it can be found
-In the form editor
-### How to use it
-1. Click the button that appears in the top right of the screen called **Field Rule Search**.
-2. Enter the field ID of the field you would like to see rule usage for in the popup and press okay.
-3. A list of form rule #'s will be displayed.
-## QuickBaseDynamicRuleRoleSearch
-### What it does
-Gives you a list of form rules that a given Role is referenced by
-### Where it can be found
-In the form editor
-### How to use it
-1. Click the button that appears in the top right of the screen called "Role Rule Search".
-2. Select the role that you would like to search for references to in Form Rules in the dropdown that appears above the tabs of the Form Builder.
-3. Click "Search".
-4. A list of form rule #'s will be displayed below the drop down.
 ## QuickBaseRestrictRoleAccess
 ### What it does
 Allows for you to Change role permissions of a field in bulk
@@ -48,6 +29,30 @@ In the field settings screen
 * Set All to View will set the permissions for all of the roles in the list to "View"
 * Set All to Modify will set the permissions for all of the roles in the list to "Modify"
 * Set All to None will set the permissions for all of the roles in the list to "None"
+### Demo
+![](Demo/RestrictRoleAccess.gif)
+## QuickBaseDynamicRuleRoleSearch
+### What it does
+Gives you a list of form rules that a given Role is referenced by
+### Where it can be found
+In the form editor
+### How to use it
+1. Click the button that appears in the top right of the screen called "Role Rule Search".
+2. Select the role that you would like to search for references to in Form Rules in the dropdown that appears above the tabs of the Form Builder.
+3. Click "Search".
+4. A list of form rule #'s will be displayed below the drop down.
+### Demo
+![](Demo/DynamicRuleRoleSearch.gif)
+## QuickBaseDynamicRuleFieldSearch
+### What it does
+Gives you a list of all the rules that a given field is used in on the current form
+### Where it can be found
+In the form editor
+### How to use it
+1. Click the button that appears in the top right of the screen called **Field Rule Search**.
+2. Enter the field ID of the field you would like to see rule usage for in the popup and press okay.
+3. A list of form rule #'s will be displayed.
+![](Demo/DynamicRuleFieldSearch.gif)
 ## QuickBaseReportRole
 ### What it does
 Allows for you to configure role permissions of a report in bulk
@@ -60,3 +65,4 @@ In the report builder
 4. Click "Check All Roles" or "Uncheck All Roles" button in the top right
 * "Check All Roles" will set the permissions for all of the roles in the list to "Checked"
 * "Uncheck All Roles" will set the permissions for all of the roles in the list to "Unchecked"
+![](Demo/ReportRole.gif)
