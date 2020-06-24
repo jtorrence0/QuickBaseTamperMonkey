@@ -16,7 +16,7 @@ In the form editor
 4. If there is a match, the Element who's name matches that text will be selected.
 5. Continue clicking Search to look for additional matches.
 ### Demo
-![](FormBuilderSearch.gif)
+![](Demo/FormBuilderSearch.gif)
 ## QuickBaseDynamicRuleFieldSearch
 ### What it does
 Gives you a list of all the rules that a given field is used in on the current form
