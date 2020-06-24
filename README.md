@@ -1,8 +1,8 @@
 # QuickBaseTamperMonkey
 Tamper Monkey Scripts for use with Quick Base
 ## How to install
-1. Install the Tampermonkey Chrome extension https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
-2. Navigate to the UserScript you would like to install in GitHub and click the "Raw" button on the right side of the page
+1. Install the [Tampermonkey extension](https://www.tampermonkey.net/?ext=dhdg&browser=chrome) for your browser.
+2. Navigate to the UserScript you would like to install in GitHub and click the "Raw" button on the right side of the page.
 3. On the Tampermonkey screen, click the "Install" or "Reinstall" button.
 
 ### QuickBaseDynamicRuleFieldSearch.user.js
