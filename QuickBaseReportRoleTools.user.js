@@ -7,7 +7,7 @@
 // @match        ://*.quickbase.com/db/*?a=viewbuild&qid*
 // @match        ://*.quickbase.com/db/*?a=ViewBuild&uid*
 // @grant        none
-// @updateURL    ://github.com/mkarrlp/QuickBaseReportRoleViewResizer/raw/master/QuickBaseReportRoleResizer.user.js
+// @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseReportRoleTools.user.js
 // ==/UserScript==
 
 
