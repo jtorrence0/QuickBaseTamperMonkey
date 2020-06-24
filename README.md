@@ -7,7 +7,9 @@ Tamper Monkey Scripts for use with Quick Base
 
 ### QuickBaseDynamicRuleFieldSearch.user.js
 **What** Gives you a list of all the rules that a given field is used in on the current form
+
 **Where** In the form editor
+
 **How**
 1. Click the button that appears in the top right of the screen called "Field Rule Search".
 2. Enter the field ID of the field you would like to see rule usage for in the popup and press okay.
