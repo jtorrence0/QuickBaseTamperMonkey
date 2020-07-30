@@ -5,6 +5,7 @@
 // @description  Change all permission values at once
 // @author       Justin Torrence
 // @match        ://*.quickbase.com/db/*a=mf*
+// @match        ://*.quickbase.com/db/*a=genModFieldForm*
 // @grant        none
 // @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickBaseRestrictRoleAccess.user.js
 // ==/UserScript==
