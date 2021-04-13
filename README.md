@@ -2,7 +2,7 @@
 This project contains several [Tampermokey](http://www.tampermonkey.net/) UserScripts that help extend the capability of Quick Base for application administrators
 ## How to install
 1. Install the [Tampermonkey extension](https://www.tampermonkey.net/?ext=dhdg&browser=chrome) for your browser.
-2. Navigate to the GitHub page of the UserScript you would like to install and click the **Raw** button on the right side of the page.
+2. Navigate to the GitHub page (above) of the UserScript you would like to install and click the **Raw** button on the right side of the page.
 3. On the Tampermonkey screen, click the **Install** or **Reinstall** button.
 ## QuickbaseFieldExport
 ### What it does
