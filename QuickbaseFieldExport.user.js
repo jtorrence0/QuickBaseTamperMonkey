@@ -1,4 +1,4 @@
-844508// ==UserScript==
+// ==UserScript==
 // @name         QuickBase Restrict Role Access
 // @namespace    QuickBaseRestrictRoleAccess
 // @version      0.1
