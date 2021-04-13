@@ -4,6 +4,15 @@ This project contains several [Tampermokey](http://www.tampermonkey.net/) UserSc
 1. Install the [Tampermonkey extension](https://www.tampermonkey.net/?ext=dhdg&browser=chrome) for your browser.
 2. Navigate to the GitHub page of the UserScript you would like to install and click the **Raw** button on the right side of the page.
 3. On the Tampermonkey screen, click the **Install** or **Reinstall** button.
+## QuickbaseFieldExport
+### What it does
+Exports a CSV of all the field info for a table
+### Where it can be found
+In the field settings
+### How to use it
+1. Click the button that appears in the top right of the screen called "Download Fields".
+2. Open the CSV doc that is downloaded as a result
+![](Demo/QuickbaseFieldExport.gif)
 ## QuickBaseFormBuilderSearch
 ### What it does
 Allows for you to search through the "Elements" of a form builder to match text
