@@ -5,6 +5,7 @@
 // @description  Change all permission values at once
 // @author       Justin Torrence
 // @match        ://*.quickbase.com/db/*a=listfields*
+// @match        ://*.quickbase.com/db/*a=ListFields*
 // @grant        none
 // @updateURL    https://github.com/jtorrence0/QuickBaseTamperMonkey/raw/master/QuickbaseFieldExport.user.js
 // ==/UserScript==
