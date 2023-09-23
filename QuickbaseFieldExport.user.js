@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         QuickBase Restrict Role Access
-// @namespace    QuickBaseRestrictRoleAccess
+// @name         QuickBase Download Table Fields
+// @namespace    QuickBaseDownloadTableFields
 // @version      0.1
-// @description  Change all permission values at once
+// @description  Download field information from the listfields view of a given table
 // @author       Justin Torrence
 // @match        ://*.quickbase.com/db/*a=listfields*
 // @match        ://*.quickbase.com/db/*a=ListFields*
